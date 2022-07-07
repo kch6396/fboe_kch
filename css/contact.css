@@ -35,10 +35,10 @@ a{
   transition: 1s;
 }
 .back-to-position.to-right{
-  transform: translateX(-5vw);
+  transform: translateX(-4vw);
 }
 .back-to-position.to-left{
-  transform: translateX(5vw);
+  transform: translateX(4vw);
 }
 .back-to-position.to-up{
   transform: translateY(-150px);
