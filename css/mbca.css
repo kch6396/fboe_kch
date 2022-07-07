@@ -455,9 +455,9 @@ footer .inner .copyright{
 
 
   /* VISUAL */
-  .visual .inner{
+  /* .visual .inner{
     height:350px;
-  }
+  } */
   .visual .video video{
     padding-top: 0;
   }
