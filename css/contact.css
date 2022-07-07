@@ -289,11 +289,11 @@ header .main__nav .nav .nav__name .contact{
 .middle .left .left__contact::before{
   content: "";
   width: 4px;
-  height: 130px;
+  height: 145px;
   background-color: #888;
   position: absolute;
   top: 0;
-  bottom:-80px;
+  bottom:-25px;
   margin: auto;
 }
 
@@ -304,13 +304,14 @@ header .main__nav .nav .nav__name .contact{
 }
 .middle .left .left__space{
   width:2px;
-  height:80px;
+  height:35px;
 }
 .middle .left .left__contact p{
-  font-size: 13px;
+  font-size: 15px;
   color:black;
   white-space: nowrap;
   font-weight: bold;
+  font-family: 'Nanum Gothic';
 }
 .middle .left .left__contact .phone{
   display:flex;
@@ -318,13 +319,14 @@ header .main__nav .nav .nav__name .contact{
 .middle .left .left__contact .phone img{
   margin: 0 5px 10px 5px;
   height:25px;
+  color:#333;
 }
 .middle .left .left__contact .pin{
   display: flex;
 }
 .middle .left .left__contact .pin img{
-  height:25px;
-  margin: 0 5px 10px 5px;
+  height:30px;
+  margin: 0 5px 10px 20px;
 }
 
 .middle .right{
@@ -704,7 +706,7 @@ footer .inner content{
     display: none;
   }
   .middle .left .left__contact .br_2{
-    /* display:none; */
+    display:none;
   }
   .middle .left .left__contact::before{
     display: none;
@@ -843,5 +845,13 @@ footer .inner content{
     width:130px;
     height:41px;
     border-radius: 20px;
+  }
+  .middle .left .left__contact .phone img{
+    height:20px;
+    width:20px;
+  }
+  .middle .left .left__contact .pin img{
+    width:20px;
+    height:20px;
   }
 }
