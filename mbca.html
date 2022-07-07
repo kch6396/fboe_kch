@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FBOE__MBCA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Secular+One&display=swap" rel="stylesheet"/>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/mbca.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- GSAP&ScrollPlugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
+  <!-- SWIPER -->  
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script defer src="./js/solution.js"></script>
+</head>
+<body> 
+  <header>
+    <div class="inner">
+      <a href="javascript:void(0)" class="logo">
+        <img src="./images/FBOENAME.png" alt="FBOE" />
+      </a>
+      <ul class="nav">
+        <li><a href="javascript:void(0)">Home</a></li>
+        <li id="solution__moblie"><a class="underline solution" href="javascript:void(0)">Solutions</a>
+          <div class="solutions">
+            <div><a href="javascript:void(0)">MBCA</a></div>
+            <div><a href="./amc.html">AMC</a></div>
+          </div>
+        </li>
+        <li><a href="javascript:void(0)">About us</a></li>
+        <li><a href="javascript:void(0)">Contact us</a></li>
+      </ul>
+      <a href="javascript:void(0)" class="nav__button">
+          <img src="./images/bar.png" alt="IMAGE1">
+      </a>
+    </div>
+  </header>
+  <section class="visual">
+    <div class="inner">
+      <div class="visual__write fade-in">
+        <h2>Mono-Camera based Blind-Spot Collision-Avoidance Assist</h2>
+      </div>
+      <div class="video fade-in">
+        <video  controls muted  preload="xxx">
+          <source src="./videos/MBCA__video.mp4" type="video/mp4">
+          이 문장은 사용자의 웹 브라우저가 video 태그를 지원하지 않을 때 나타납니다!
+        </video>
+      </div>
+    </div>
+    <ul class="choice">
+      <div class="inner">
+        <li class="left">
+          <a href="javascript:void(0)"><div>MBCA</div></a>
+        </li>
+        <li class="right">
+          <a href="./amc.html"><div>AMC</div></a>
+        </li>
+      </div>
+    </ul>
+  </section>
+  <section class="MBCA--what scroll-spy">
+    <div class="inner">
+      <h1 class="back-to-position to-down delay-1">About MBCA Solution</h1>
+      <h2 class="back-to-position to-down delay-2">(Mono-Camera based Blind-Spot Collision-Avoidance Assist)</h2>
+      <div class="MBCA--what__image">
+        <img class="back-to-position to-right delay-3" src="./images/MBCA_Solution.PNG" alt="MBCAWHAT" />
+        <p class="back-to-position to-down delay-4">AI Solution that measures the relative distance and speed of all objects visible on the screen in real-time with “one camera”
+        </p>
+      </div>
+    </div>
+  </section>
+  <hr class="what--divider">
+  <section class="MBCA--strength scroll-spy">
+    <div class="inner">
+      <h1 class="back-to-position to-down delay-1">MBCA Strength</h1>
+      <div class="MBCA--strength__image">
+        <img class="back-to-position to-right delay-2" src="./images/example1.png" alt="example1" />
+        <img class="back-to-position to-right delay-3" src="./images/example2.png" alt="example1" />
+      </div>
+      <h2 class="back-to-position to-down delay-4">1. The task previously performed by fusion of various sensors such as lidar, radar, ultrasound, and camera required for autonomous driving can be prevented through object detection and relative speed through the 'Only One Camera’.</h2>
+      <h2 class="back-to-position to-down delay-5">2. MBCA can be used in various fields of mobility as well as autonomous driving.</h2>
+    </div>
+  </section>
+  <footer> 
+    <div class="inner">
+      <div class="companyname">
+        <p class="eng">FBOE</p>
+      </div>
+      <div class="info">
+        <div class="footercontact">
+          <p class="email">fboe@fboeit.com</p>
+        </div>
+        <p class="address">Room 1033, Ulsan Biz Park, 406-21, Jongga-ro, <br>Jung-gu, Ulsan, Republic of Korea</p>
+      </div>
+      <p class="copyright">
+        <!-- &copy; <span class="this-year"></span> FBOEIT Company. All Rights Reserved. -->
+        FBOE Co., Ltd. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
