@@ -1,16 +1,12 @@
 html, body{
   height:100%;
-  overflow-x:hidden;
-  overflow-y: scroll;
 }
 body {
   color: #333;
   font-size: 16px;
   font-weight: 400;
   line-height:1.4;
-  /* font-family: 'Nanum Gothic', sans-serif; */
   font-family: 'Secular One', sans-serif;
-  /* width:100%; */
 }
 img {
   display: block;
@@ -528,9 +524,13 @@ footer .inner content{
   height:100%;
 } */
 @media screen and (max-width:768px){
+  html{
+    overflow-x:hidden;
+    
+  }
   body{
     width:100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .inner{
     width:100%;
@@ -684,7 +684,7 @@ footer .inner content{
     width:100%;
     height:330px;
     height:100%;
-    border-bottom:3px solid rgb(168, 166, 166);
+    /* border-bottom:3px solid rgb(168, 166, 166); */
   }
   .middle .left{
     position: static;
