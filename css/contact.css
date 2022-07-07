@@ -1,5 +1,6 @@
 html, body{
   height:100%;
+  overflow-x:hidden;
 }
 body {
   color: #333;
@@ -35,10 +36,10 @@ a{
   transition: 1s;
 }
 .back-to-position.to-right{
-  transform: translateX(-6vw);
+  transform: translateX(-5vw);
 }
 .back-to-position.to-left{
-  transform: translateX(6vw);
+  transform: translateX(5vw);
 }
 .back-to-position.to-up{
   transform: translateY(-150px);
@@ -526,6 +527,7 @@ footer .inner content{
 @media screen and (max-width:768px){
   body{
     width:100%;
+    overflow-x: hidden;
   }
   .inner{
     width:100%;
@@ -678,6 +680,7 @@ footer .inner content{
     display:block;
     width:100%;
     height:330px;
+    height:100%;
     border-bottom:3px solid rgb(168, 166, 166);
   }
   .middle .left{
@@ -688,7 +691,7 @@ footer .inner content{
   }
   .middle .left .left__contact{
     position: relative;
-    width:80%;
+    width:100%;
     height:auto;
     left:0;
     right:0;
