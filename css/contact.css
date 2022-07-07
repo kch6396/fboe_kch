@@ -6,7 +6,9 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height:1.4;
+  /* font-family: 'Nanum Gothic', sans-serif; */
   font-family: 'Secular One', sans-serif;
+  /* width:100%; */
 }
 img {
   display: block;
@@ -286,11 +288,11 @@ header .main__nav .nav .nav__name .contact{
 .middle .left .left__contact::before{
   content: "";
   width: 4px;
-  height: 145px;
+  height: 130px;
   background-color: #888;
   position: absolute;
   top: 0;
-  bottom:-25px;
+  bottom:-80px;
   margin: auto;
 }
 
@@ -301,14 +303,13 @@ header .main__nav .nav .nav__name .contact{
 }
 .middle .left .left__space{
   width:2px;
-  height:35px;
+  height:80px;
 }
 .middle .left .left__contact p{
-  font-size: 15px;
+  font-size: 13px;
   color:black;
   white-space: nowrap;
   font-weight: bold;
-  font-family: 'Nanum Gothic';
 }
 .middle .left .left__contact .phone{
   display:flex;
@@ -316,14 +317,13 @@ header .main__nav .nav .nav__name .contact{
 .middle .left .left__contact .phone img{
   margin: 0 5px 10px 5px;
   height:25px;
-  color:#333;
 }
 .middle .left .left__contact .pin{
   display: flex;
 }
 .middle .left .left__contact .pin img{
-  height:30px;
-  margin: 0 5px 10px 20px;
+  height:25px;
+  margin: 0 5px 10px 5px;
 }
 
 .middle .right{
@@ -524,13 +524,8 @@ footer .inner content{
   height:100%;
 } */
 @media screen and (max-width:768px){
-  html{
-    overflow-x:hidden;
-    
-  }
   body{
     width:100%;
-    /* overflow-x: hidden; */
   }
   .inner{
     width:100%;
@@ -683,8 +678,7 @@ footer .inner content{
     display:block;
     width:100%;
     height:330px;
-    height:100%;
-    /* border-bottom:3px solid rgb(168, 166, 166); */
+    border-bottom:3px solid rgb(168, 166, 166);
   }
   .middle .left{
     position: static;
@@ -694,7 +688,7 @@ footer .inner content{
   }
   .middle .left .left__contact{
     position: relative;
-    width:100%;
+    width:90%;
     height:auto;
     left:0;
     right:0;
@@ -841,6 +835,11 @@ footer .inner content{
     /* font-size:2vmin; */
     font-size:12px;
     /* width:50px; */
+  }
+  .middle .right .table .container form .bt input:hover{
+    width:130px;
+    height:41px;
+    border-radius: 20px;
   }
   .middle .right .table .container form .bt input:hover{
     width:130px;
