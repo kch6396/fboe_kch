@@ -288,11 +288,11 @@ header .main__nav .nav .nav__name .contact{
 .middle .left .left__contact::before{
   content: "";
   width: 4px;
-  height: 130px;
+  height: 135px;
   background-color: #888;
   position: absolute;
   top: 0;
-  bottom:-80px;
+  bottom:-10px;
   margin: auto;
 }
 
@@ -307,9 +307,11 @@ header .main__nav .nav .nav__name .contact{
 }
 .middle .left .left__contact p{
   font-size: 13px;
-  color:black;
+  color:#333;
   white-space: nowrap;
   font-weight: bold;
+  padding-top:5px;
+  font-family: 'Nanum-Gothic';
 }
 .middle .left .left__contact .phone{
   display:flex;
@@ -323,7 +325,7 @@ header .main__nav .nav .nav__name .contact{
 }
 .middle .left .left__contact .pin img{
   height:25px;
-  margin: 0 5px 10px 5px;
+  margin: 0 5px 10px 30px;
 }
 
 .middle .right{
@@ -498,6 +500,14 @@ textarea::placeholder {
   border:2px solid rgb(69, 48, 138);
   background-color: rgb(69, 48, 138);
   border-radius: 20px;
+}
+.footer{
+  position:absolute;
+  right:40px;
+  bottom:-920px;
+  font-size: 13px;
+  font-family: 'Nanum-Gothic';
+  color:#333;
 }
 /* FOOTER */
 /* footer{
@@ -677,7 +687,7 @@ footer .inner content{
     position:absolute;
     display:block;
     width:100%;
-    height:330px;
+    height:370px;
     border-bottom:3px solid rgb(168, 166, 166);
   }
   .middle .left{
@@ -701,7 +711,7 @@ footer .inner content{
     display: none;
   }
   .middle .left .left__contact .br_2{
-    display:none;
+    /* display:none; */
   }
   .middle .left .left__contact::before{
     display: none;
@@ -751,7 +761,7 @@ footer .inner content{
     width:100%;
     height:300px;
     /* display:none; */
-    top:900px;
+    top:950px;
     bottom:0;
 
   }
@@ -807,7 +817,7 @@ footer .inner content{
     color:rgb(69, 48, 138);
     font-weight: bold;
     font-size:20px;
-    top:0px;
+    top:40px;
     left:0px;
     /* font-size:4vmin; */
   }
@@ -853,5 +863,13 @@ footer .inner content{
   .middle .left .left__contact .pin img{
     width:20px;
     height:20px;
+  }
+  .middle .left .left__contact p{
+    padding-top:3px;
+  }
+  .footer{
+    bottom:-360px;
+    padding-bottom: 20px;
+    right:0;
   }
 }
