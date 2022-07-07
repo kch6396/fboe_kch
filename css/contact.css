@@ -642,9 +642,9 @@ footer .inner content{
     display:block;
     
   }
-  /* .nav.active2{
+  .nav.active2{
     height:230px;
-  } */
+  }
   .nav #under.active {
     margin-bottom: 70px;
   }
