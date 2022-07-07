@@ -478,15 +478,14 @@ footer .inner .copyright{
     font-size:30px;
   }
   .AMC--what .inner h2{
-
+    text-align: center;
     width:99%;
     left:0;
     right:0;
     margin:auto;
     font-size:23px;
   }
-  .AMC--what .MBCA--what__image p{
-    text-align: center;
+  .AMC--what .AMC--what__image p{
     width:95%;
     left:0;
     right:0;
