@@ -653,7 +653,7 @@ header .nav li .underline{
     background-color: transparent;
     color:#555;
     font-weight: bold;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
     z-index: 5;
     padding-top:13.5px;
   }
@@ -665,7 +665,7 @@ header .nav li .underline{
     color:white;
     letter-spacing:1px;
     text-align: center;
-    padding-top:18.5px;
+    padding-top:20.5px;
   }
   .main .right .map{
     /* display: none; */
