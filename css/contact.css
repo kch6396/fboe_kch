@@ -660,11 +660,11 @@ header .nav li .underline{
     color:white;
     letter-spacing:1px;
     text-align: center;
-    padding-top:19.5px;
+    padding-top:25.5px;
   }
   .main .right .map{
     /* display: none; */
-    transform: translateX(-60%);
+    transform: translateX(-100%);
     position:fixed;
     width:100%;
     top:-320px;
