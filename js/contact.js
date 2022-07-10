@@ -67,7 +67,7 @@ var marker = new kakao.maps.Marker({
 marker.setMap(map);
 
 
-var iwContent = '<div style="padding:5px; width:97%; color:rgb(69, 48, 138); font-weight:bold;">FOBE<br><hr><p style="font-size:12px; color:#333;">Room 1033, Ulsan Biz Park, 406-21,<br>Jongga-ro, Jung-gu, Ulsan, Republic of Korea</p><a href="https://map.kakao.com/link/map/FBOE,35.563442697386925,  129.32253853048218 " style="color:blue; font-size:13px;" target="_blank">Big Map View</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://map.kakao.com/link/to/FBOE,35.563442697386925,  129.32253853048218 " style="color:blue; font-size:13px;" target="_blank">Get Directions</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+var iwContent = '<div class="notranslate" style="padding:5px; width:97%; color:rgb(69, 48, 138); font-weight:bold; ">FOBE<br><hr><p style="font-size:12px; color:#333;">Room 1033, Ulsan Biz Park, 406-21,<br>Jongga-ro, Jung-gu, Ulsan, Republic of Korea</p><a href="https://map.kakao.com/link/map/FBOE,35.563442697386925,  129.32253853048218 " style="color:blue; font-size:13px;" target="_blank">Big Map View</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://map.kakao.com/link/to/FBOE,35.563442697386925,  129.32253853048218 " style="color:blue; font-size:13px;" target="_blank">Get Directions</a></divc>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
     iwRemoveable = true; // removeable 속성을 ture 로 설정하면 인포윈도우를 닫을 수 있는 x버튼이 표시됩니다
 
 // 인포윈도우를 생성합니다
