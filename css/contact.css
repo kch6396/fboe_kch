@@ -653,14 +653,14 @@ header .nav li .underline{
     padding-top:13.5px;
   }
   .main .map__btn.change{
-    height:47.5px;
+    /* height:47.5px; */
     border-radius: 0 0 10px 10px;
     background-color: #666;
     border:2px solid #666;
     color:white;
     letter-spacing:1px;
     text-align: center;
-    padding-top:25.5px;
+    padding-top:23.5px;
   }
   .main .right .map{
     /* display: none; */
