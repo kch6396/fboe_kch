@@ -643,7 +643,9 @@ header .nav li .underline{
     /* margin-right:20px; */
     width:70px;
     height:25px;
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     right:2%;
     font-family: 'Secular One', sans-serif;
     background-color: transparent;
