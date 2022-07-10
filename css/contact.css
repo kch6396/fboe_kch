@@ -405,6 +405,7 @@ header .nav li .underline{
   color:white;
   letter-spacing: 5px;
   padding-left:8px;
+  /* text-align: center; */
 }
 
 
@@ -631,18 +632,19 @@ header .nav li .underline{
   }
   .main .right .table .btn input:hover{
     padding-left:4px;
+    /* text-align: center; */
     letter-spacing:3px;
   }
 
   .main .map__btn{
     position:fixed;
     display:block;
-    top:54px;
+    top:41.5px;
     border:2px solid #999;
     border-top: none;
     /* margin-right:20px; */
     width:70px;
-    height:25px;
+    height:37.5px;
     border-radius: 0 0 10px 10px;
     /* border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; */
@@ -651,15 +653,18 @@ header .nav li .underline{
     background-color: transparent;
     color:#555;
     font-weight: bold;
-    transition: height 0.5s;
+    transition: all 0.5s;
     z-index: 5;
+    padding-top:13.5px;
   }
   .main .map__btn.change{
-    height:35px;
+    height:47.5px;
     border-radius: 0 0 10px 10px;
     background-color: #666;
     border:2px solid #666;
     color:white;
+    letter-spacing:1px;
+    text-align: center;
   }
   .main .right .map{
     /* display: none; */
