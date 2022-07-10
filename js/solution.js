@@ -22,7 +22,7 @@ fadeEls.forEach(function(fadeEl, index){
   });
 });
 
-const spyEls = document.querySelectorAll('section.scroll-spy')
+const spyEls = document.querySelectorAll('section.scroll-spy, div.scroll-spy')
 // 요소들 반복 처리!
 spyEls.forEach(function (spyEl) {
     new ScrollMagic

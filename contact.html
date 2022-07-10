@@ -1,179 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FBOE__Contact us</title>
-  <link rel="icon" href="./images/onlylogo.png" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Secular+One&display=swap" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FBOE__Contact us</title>
+    <link rel="icon" href="./images/onlylogo.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Secular+One&display=swap" rel="stylesheet"/>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
-  <link rel="stylesheet" href="./css/contact.css" />
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/contact.css" />
   
-  <!-- GSAP&ScrollPlugin -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
-  <!-- SWIPER -->  
-  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- GSAP&ScrollPlugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
+    <!-- SWIPER -->  
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+    
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
-  <!-- ScrollMagic -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <script defer src="./js/contact.js"></script>
-</head>
-<body style="overflow-x: hidden">
-  <img class="bg" src="./images/BG.png" alt="">
+    <script defer src="./js/contact.js"></script>
+  </head>
+<body>
   <header>
     <div class="inner">
       <a href="javascript:void(0)" class="logo">
         <img src="./images/FBOENAME.png" alt="FBOE" />
       </a>
-      
-      
-      <div class="main__nav">
-        
-        <div class="nav">
-          <div class="nav__name"><a href="javascript:void(0)">Home</a></div>
-          
-          <div class="nav__name" id="under"><a class="solution" href="javascript:void(0)">Solutions</a>
-            
-            <ul class="solutions-nav">
-              <li><a href="./mbca.html">MBCA</a></li>
-              <li><a href="./amc.html">AMC</a></li>
-            </ul>
-            
+      <ul class="nav">
+        <li><a href="javascript:void(0)">Home</a></li>
+        <li id="solution__moblie"><a class="solution" href="javascript:void(0)">Solutions</a>
+          <div class="solutions">
+            <div><a href="./mbca.html">MBCA</a></div>
+            <div><a href="./amc.html">AMC</a></div>
           </div>
-          <div class="nav__name" id="third"><a href="javascript:void(0)">About us</a></div>
-          <div class="nav__name" id="underline"><a class="contact" href="./contact.html">Contact us</a></div>
-        </div>
-        <!-- <a href="" class="nav__button">
-          <i class="fa-solid fa-bars"></i>
-        </a> -->
-      </div>
+        </li>
+        <li><a href="javascript:void(0)">About us</a></li>
+        <li><a href="./contact.html" class="underline">Contact us</a></li>
+      </ul>
       <a href="javascript:void(0)" class="nav__button">
-        <!-- <span class="material-icons-outlined"> -->
           <img src="./images/bar.png" alt="IMAGE1">
-          <!-- </span> -->
       </a>
     </div>
   </header>
-  <div class="middle">
+  <section class="main">
+    <input  class="map__btn" type="button" value="M A P" class="btn">
+    <img class="bg" src="./images/BG.png" alt="BG" />
     <div class="left scroll-spy">
-      <img class="middle__bg" src="./images/BG.png" alt="">
-      <div class="left__contact back-to-position to-up delay-0">
-        <h1>Contact <br>us</h1>
-        <!-- <div class="left__space"></div> -->
-        
-        <br class="br_1"><br class="br_2">
-        <div class="phone pin back-to-position to-right delay-2">
-          <img src="./images/account.png" alt="" />
-          <p>Sungmoon Ahn</p>
-        </div>
-        <div class="phone pin back-to-position to-right delay-2">
-          
-          
-          <img src="./images/email.png" alt="">
-          <div class="phone__number">
-            <!-- <p>010-0000-1111</p> -->
-            <p>fboe@fboeit.com</p>
+      <div class="left__write">
+        <div class="title back-to-position to-up delay-0">Contact <br>us</div>
+        <div class="information">
+          <div class="line back-to-position to-up delay-1"></div>
+          <div class="des back-to-position to-right delay-2">
+            We provide optimal artificial <br>intelligence solutions for various fields.
           </div>
-        </div>
-        <div class="pin back-to-position to-right delay-2">
-          <img src="./images/home.png" alt="">
-          <p>Room 1033, Ulsan Biz Park, 406-21, <br> Jongga-ro, Jung-gu, Ulsan,<br>Republic of Korea</p>
+          <div class="name back-to-position to-right delay-3">
+            <span class="material-icons">account_circle</span>
+            Sungmoon Ahn
+          </div>
+          <div class="email back-to-position to-right delay-3">
+            <span class="material-icons">email</span>
+            fboe@fboeit.com
+          </div>
+          <div class="address back-to-position to-right delay-3">
+            <span class="material-icons">home</span>
+            Room 1033, Ulsan Biz Park, 406-21,<br> Jongga-ro, Jung-gu, Ulsan,<br> Republic of Korea
+          </div>
         </div>
       </div>
     </div>
     <div class="right">
-      <div class="table scroll-spy">
-        <div class="container back-to-position to-left delay-1"> 
-          <form onsubmit="swal('fda')" action="{% url 'users:meeting' %}" class="sign" method="post">
-            <!-- {% csrf_token %} -->
-            <div class="first">
-              <div class="company">C o m p a n y<br>
-                <label for="meeting"></label>
-                <input type="text" name="company" id="company" placeholder="Company">
-              </div>
-              <div class="industry">I n d u s t r y<br>
-                <label for="meeting"></label>
-                <input type="text" name="industry" id="industry" placeholder="Industry">
-              </div>
+      <div class="right__above">
+        <div class="table scroll-spy">
+          <div class="first back-to-position to-left delay-3">
+            <div class="company">
+              C o m p a n y<br>
+              <input type="text" name="company" id="company" placeholder="Company">
             </div>
-            <br>
-            <!-- N a m e -->
-            <div class="second">
-              <div class="firstname">N a m e<br>
-                <label for="meeting"></label>
-                <input type="text" name="company" id="company" placeholder="First Name"><br><div class="under-write"><div class="subname">First&nbsp; Name</div></div>
-              </div>
-              <div class="lastname"><br>
-                <label for="meeting"></label>
-                <input type="text" name="industry" id="industry" placeholder="Last Name"><br><div class="under-write"><div class="subname">Last&nbsp; Name</div></div>
-              </div>
-
-
-              <!-- <div>
-                <label for="meeting"></label>
-                <input type="text" name="firstname" id="firstname" placeholder="First Name"><br><div class="under-write"><div class="subname">First&nbsp; Name</div></div>
-              </div>
-              <div class="last">
-                <label for="meeting"></label>
-                <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br><div class="under-write"><div class="subname">Last&nbsp; Name</div></div>
-              </div> -->
+            <div class="industry">
+              I n d u s t r y<br>
+              <input type="text" name="industry" id="industry" placeholder="Industry">
             </div>
-            <br>
-            <div class="third">
-              <div class="job">J o b&nbsp;&nbsp;&nbsp;&nbsp;T i t l e<br>
-                <label for="meeting"></label>
-                <input type="text" name="jobtitle" id="jobtitle" placeholder="Job Title">
-              </div>
-              <div class="email">E m a i l<br>
-                <label for="meeting"></label>
-                <input type="text" name="email" id="email" placeholder="Email">
-              </div>
+          </div>
+          <div class="second back-to-position to-left delay-3">
+            <div class="first__name">
+              Name<br>
+              <input type="text" name="firstname" id="fristname" placeholder="Frist Name">
+              <br><div class="sub">First name</div>
             </div>
-            <br>
-            <div>M e s s a g e<br>
-              <label for="meeting"></label>
-              <textarea name="message" class="autosize" onkeydown="resize(this)" onkeyup="resize(this)" style="height:25px;" placeholder="Message"></textarea>
-              <script>
-                function resize(obj) {
-                  obj.style.height = "1px";
-                  obj.style.height = (-20+obj.scrollHeight)+"px";
-                }
-                </script>
+            <div class="last__name">
+              <br>
+              <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+              <br><div class="sub">Last name</div>
             </div>
-            <div class="bt back-to-position to-down delay-2">
-              <button id="alertStart"><input  type="submit" value="Submit" class="btn"></button>
+          </div>
+          <div class="third back-to-position to-left delay-3">
+            <div class="job__title">
+              J o b&nbsp;&nbsp;&nbsp;&nbsp;T i t l e<br>
+              <input type="text" name="jobtitle" id="jobtitle" placeholder="Job Title">
             </div>
-          </form>
-          <!-- <a href="{%url 'users:main' %}" ><button>돌아가기</button></a> -->
+            <div class="mail">
+              E m a i l<br>
+              <input type="text" name="email" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="message back-to-position to-left delay-3">
+            M e s s a g e<br>
+            <textarea name="message" class="autosize" onkeydown="resize(this)" onkeyup="resize(this)" style="height:25px;" placeholder="Message"></textarea>
+            <script>
+              function resize(obj) {
+                obj.style.height = "1px";
+                obj.style.height = (-20+obj.scrollHeight)+"px";
+              }
+            </script>
+          </div>
+          <div class="btn back-to-position to-down delay-4">
+            <input  type="submit" value="Submit" class="btn">
+          </div>
         </div>
       </div>
-      <!-- <div class="space2"></div> -->
       <div class="map scroll-spy">
-        <div id="map" class="back-to-position to-left delay-0"></div>
+        <div id="map" class="back-to-position to-left delay-1"></div>
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=271dc02bb1bbd6dd7061af973ceada79"></script>
       </div>
-      <P class="footer">© 2022 FBOE Inc. All rights reserved.</P>
     </div>
-  </div>
-  <!-- <button id="alertStart">Alert 실행</button> -->
-  <!-- <footer>
-    <div class="inner">
-      <div class="content">
-
-      </div>
-    </div>
-  </footer>  -->
-
+    <P class="footer">© 2022 FBOE Inc. All rights reserved.</P>
+  </section>
 </body>
 </html>
