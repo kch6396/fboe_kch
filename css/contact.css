@@ -664,7 +664,7 @@ header .nav li .underline{
   }
   .main .right .map{
     /* display: none; */
-    transform: translateX(-150%);
+    transform: translateX(-60%);
     position:fixed;
     width:100%;
     top:-320px;
@@ -672,13 +672,13 @@ header .nav li .underline{
     height:311.6px;
     top:95px;
     opacity: 0;
-    transition: all 1s;
+    transition: all 0.7s;
     
   }
   .main .right .map.active{
     /* display: block; */
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0);
   }
   .main .right .map #map{
     width:95%;
